@@ -192,7 +192,7 @@ export default function AboutPage() {
         {/* Certifications */}
         <section className="space-y-3">
           <h2 className="text-xs uppercase tracking-widest font-bold border-b border-black pb-1">
-            Certifications &amp; Training
+            Certifications
           </h2>
           <ul className="space-y-1 text-sm">
             {[
