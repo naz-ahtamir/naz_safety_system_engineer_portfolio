@@ -4,10 +4,14 @@ export const metadata: Metadata = {
   title: "Contacts",
   description:
     "Get in touch with Nasaruddin, ST — Safety System Engineer Assistant. Available via email, WhatsApp, and LinkedIn for safety project inquiries.",
+  alternates: {
+    canonical: "https://www.nasaruddin-st.site/contacts",
+  },
   openGraph: {
     title: "Contacts — Nasaruddin, ST",
     description:
       "Get in touch with Nasaruddin, ST via email, WhatsApp, or LinkedIn for safety project inquiries.",
+    url: "https://www.nasaruddin-st.site/contacts",
   },
 };
 

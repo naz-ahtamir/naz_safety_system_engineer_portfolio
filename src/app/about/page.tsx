@@ -5,10 +5,14 @@ export const metadata: Metadata = {
   title: "About",
   description:
     "Learn about Nasaruddin, ST — Safety System Engineer Assistant with expertise in OHSMS auditing, hazard identification, risk assessment, and safety management systems in industrial environments.",
+  alternates: {
+    canonical: "https://www.nasaruddin-st.site/about",
+  },
   openGraph: {
     title: "About — Nasaruddin, ST",
     description:
       "Safety System Engineer Assistant with expertise in OHSMS auditing, hazard identification, risk assessment, and safety management systems.",
+    url: "https://www.nasaruddin-st.site/about",
   },
 };
 

@@ -5,10 +5,14 @@ export const metadata: Metadata = {
   title: "Activities",
   description:
     "Safety activities, field inspections, audits, and training programs carried out by Nasaruddin, ST — Safety System Engineer Assistant.",
+  alternates: {
+    canonical: "https://www.nasaruddin-st.site/activities",
+  },
   openGraph: {
     title: "Activities — Nasaruddin, ST",
     description:
       "Safety activities, field inspections, audits, and training programs carried out by Nasaruddin, ST.",
+    url: "https://www.nasaruddin-st.site/activities",
   },
 };
 
