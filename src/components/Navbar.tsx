@@ -7,7 +7,7 @@ const navLinks = [
   { href: "/about", label: "ABOUT", external: false },
   { href: "/activities", label: "ACTIVITIES", external: false },
   { href: "/contacts", label: "CONTACTS", external: false },
-  { href: "/resume.pdf", label: "RESUME", external: true },
+  { href: "/Nasaruddin, ST.pdf", label: "RESUME", external: true },
 ];
 
 export default function Navbar() {
