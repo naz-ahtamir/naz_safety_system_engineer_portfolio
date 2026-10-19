@@ -188,6 +188,26 @@ export default function AboutPage() {
             ))}
           </ul>
         </section>
+
+        {/* Certifications */}
+        <section className="space-y-3">
+          <h2 className="text-xs uppercase tracking-widest font-bold border-b border-black pb-1">
+            Certifications &amp; Training
+          </h2>
+          <ul className="space-y-1 text-sm">
+            {[
+              "Training of Trainer Lv 4, Issued by BNSP (May 2026)",
+              "OHS Management System Auditor, Issued by Indonesian Ministry of Manpower (Feb 2024)",
+              "OHS Expert, Issued by Indonesian Ministry of Manpower	(Dec 2022)",              
+            ].map((cert) => (
+              <li key={cert} className="flex items-start gap-2">
+                <span className="text-gray-400 shrink-0">—</span>
+                <span>{cert}</span>
+              </li>
+            ))}
+          </ul>
+        </section>
+
       </article>
     </div>
   );
